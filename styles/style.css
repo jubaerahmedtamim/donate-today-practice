@@ -117,3 +117,34 @@ header {
 .amount-btn{
     text-align: center;
 }
+/* donate plan styles */
+.section-donate-plan{
+    margin-bottom: 130px;
+}
+.donate-items{
+    display: flex;
+    gap: 24px;
+}
+.donate-item{
+    padding: 54px 24px;
+    border-radius: 5px;
+}
+.donate-item img{
+    margin-bottom: 30px;
+}
+.item-title{
+    margin-bottom: 16px;
+}
+.food{
+    background-color: 
+    rgba(79, 157, 166, 0.1);
+    
+}
+.shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
+}
+.education{
+    background:rgba(255, 244, 214, 1);
+
+}
