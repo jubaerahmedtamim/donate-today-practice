@@ -184,24 +184,62 @@ header {
     color: #707070;
     margin-bottom: 20px;
 }
-.donatation-desc2{
+
+.donatation-desc2 {
     font-weight: 400;
     font-size: 18px;
     color: #707070;
     margin-bottom: 30px;
 }
+
 .donatation-contribute-container img {
     width: 555px;
     height: 477px;
     border-radius: 5px;
 }
-.donatation-contribute-container-2{
+
+.donatation-contribute-container-2 {
     display: flex;
     flex-direction: row-reverse;
     gap: 83px;
+    margin-bottom: 130px;
 }
+
 .donatation-contribute-container-2 img {
     width: 555px;
     height: 477px;
     border-radius: 5px;
+}
+
+/* update container styles here */
+.update-container {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.form-container {
+    background-color: #FFF4D6;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.update-container form input[type="email"] {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    padding: 12px 30px 12px 12px;
+}
+
+.update-container form input[type="submit"] {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    padding: 12px 30px;
+    color: #FAFAFA;
+    margin-left: 0;
+}
+.form-container form input[type="email"], input[type="submit"]{
+    gap: 0;
 }
